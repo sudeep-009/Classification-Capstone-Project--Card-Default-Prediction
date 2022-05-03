@@ -44,7 +44,7 @@ This dataset consists of 23 input feature variables and a binary target variable
  
  d) Renaming Columns: Column names were mapped by adding the months name.
  
- e) **Removed the inconsistencies and Replacing Attribute Values** found in each of the input variables:
+ e) **Removed the inconsistencies** found in each of the input variables and replaced the attribute values:
  
  
          (i) Education: Unique values that were present in this columns were 0,1,2,3,4,5,6 
@@ -61,5 +61,19 @@ This dataset consists of 23 input feature variables and a binary target variable
          (iii) Gender:  Unique values that were present in this columns were 1,2
                         Replaced 1 with male
                         Replaced 2 with female
+                        
+  ## Exploratory Data Analysis and Summarizing Data:
+    a) **Uni-Variate Analysis:**
+            (i)   Age: Found more number of clients were in the age bracket of 20-40.
+            (ii)  Limiting Balance: Most of the clients have the limiting balance below 2000000
+            (iii) Found More female card holder with higher default rate
+            (iv)  Found that people with higher education level are more likely to get deault in their payment.
+            (v)   Married ones are more likely to get default in their payments
+            
+    b) **Bi-Variate Analysis:**
+            (i)  Age and Gender: Found that the females in age group 20-40 had very a high tendency to default in their payment compared to males in all age brackets.
+            (ii) Payment and Bill Amount: There was a higher proportion of clients for whom the bill amount is high but payment done against the same is very low.
+            (iii) Age and Maritial Status: In the age group 20 - 30 singles were found more likely to default.
+                    
  
 
