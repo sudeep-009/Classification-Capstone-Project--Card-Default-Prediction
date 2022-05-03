@@ -21,4 +21,16 @@ This dataset consists of 23 input feature variables and a binary target variable
  X12-X17: Amount of bill statement (NT dollar). X12 = amount of bill statement in September, 2005; X13 = amount of bill statement in August, 2005; . . .; X17 = amount of bill statement in April, 2005.
  
  X18-X23: Amount of previous payment (NT dollar). X18 = amount paid in September, 2005; X19 = amount paid in August, 2005; . . .;X23 = amount paid in April, 2005.
+ 
+ ## Understanding Data
+ 
+ a) Number of records present in the dataset is 30000.
+ 
+ b) Number of features present in the dataset is 23.
+ 
+ c) All the attribute of the dataset is of integer type.
+ 
+ d) Duplicate Value present in the dataset is 24.
+ 
+ e) No null values are present in the dataset.
 
