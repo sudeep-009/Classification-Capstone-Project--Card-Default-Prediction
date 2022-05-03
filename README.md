@@ -33,4 +33,18 @@ This dataset consists of 23 input feature variables and a binary target variable
  d) Duplicate Value present in the dataset is 24.
  
  e) No null values are present in the dataset.
+ 
+ ## Cleaning Data and Feature Engineering
+ 
+ a) Duplicate Value: Dropped all the duplicate values because duplicate values result in overfit the model.
+ 
+ b) Missing value treatment: No missing values were present in the dataset.
+ 
+ c) Outlier Treatment: Found No significant Outliers that could effect the performance of classification model.
+ 
+ d) Renaming Columns: Column names were mapped by adding the months name.
+ 
+ e) Removing Inconsistencies present in each of the input variables:
+         (i) Education: 
+ 
 
