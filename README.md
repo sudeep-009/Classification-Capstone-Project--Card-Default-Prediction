@@ -44,7 +44,22 @@ This dataset consists of 23 input feature variables and a binary target variable
  
  d) Renaming Columns: Column names were mapped by adding the months name.
  
- e) Removing Inconsistencies present in each of the input variables:
-         (i) Education: 
+ e) **Removed the inconsistencies and Replacing Attribute Values** found in each of the input variables:
+ 
+ 
+         (i) Education: Unique values that were present in this columns were 0,1,2,3,4,5,6 
+                        Replaced the values 0, 4, 5, 6 with others
+                        Replaced 1 with graduate
+                        Replaced 2 with university
+                        Replaced 3 with high-school
+                        
+         (ii) Marriage: Unique values that were present in this columns were 1,2,3,0
+                        Replaced the values 0,3 with others
+                        Replaced the value 1 with marriage
+                        Replaced the value 2 with single
+                        
+         (iii) Gender:  Unique values that were present in this columns were 1,2
+                        Replaced 1 with male
+                        Replaced 2 with female
  
 
