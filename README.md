@@ -69,20 +69,40 @@ This dataset consists of 23 input feature variables and a binary target variable
             (iii) Found More female card holder with higher default rate
             (iv)  Found that people with higher education level are more likely to get deault in their payments.
             (v)   Married ones are more likely to get default in their payments.
-            (vi)  Found that the dataset contains 77% clients that are not expected to default in their payments whereas 23% clients are expected to default in their                     payment
+            (vi)  Found that the dataset contains 77% clients that are not expected to default in their payments whereas 23% clients 
+                  are expected to default in their payment
             
     b) Bi-Variate Analysis:
-            (i)  Age and Gender: Found that the females in age group 20-40 had very a high tendency to default in their payment compared to males in all age brackets.
-            (ii) Payment and Bill Amount: There was a higher proportion of clients for whom the bill amount is high but payment done against the same is very low.
+            (i)   Age and Gender: Found that the females in age group 20-40 had very a high tendency to default in their payment 
+                  compared to males in all age brackets.
+            (ii)  Payment and Bill Amount: There was a higher proportion of clients for whom the bill amount is high but payment 
+                  done against the same is very low.
             (iii) Age and Maritial Status: In the age group 20 - 30 singles were found more likely to default.
             
-  ## Handling Imbalance
+  ## Handling Imbalance:
              Implemented SMOTE boosting to oversample the minority class.
              
-  ## Feature Selection
-             Feature selection increases the predictive power of machine learning algorithms by selecting the most important variables and eliminating redundant and                irrelevant features. We removed all the multicollinear features from the dataset prior training the model. For removing multicollinearity we used Vif and              correlation heat map.
+  ## Data Manipulation:
+             Used pandas get dummies to convert the categorical variable into dummy or indicator variables.
              
-             (a) 
+  ## Feature Selection
+             Feature selection increases the predictive power of machine learning algorithms by selecting the most important variables 
+             and eliminating redundant and irrelevant features. We removed all the multicollinear features from the dataset prior training 
+             the model. For removing multicollinearity we used Vif and correlation heat map.
+             
+             (a) HeatMap: 
+                     (i)   Found that payments in all the months are highly collinear.
+                     (ii)  Found that bill amounts in all the months are highly collinear.
+                     (iii) Found high correlation between male and  female clients.
+                     (iv)  Found high correlation between married and single.
+                     
+              (b) Vif:  Variation Inflation Factor is another way of measuring multicollinearity.Mathematically, the VIF for a regression
+              model variable is equal to the ratio of the overall model variance to the variance of a model that includes only that single 
+              independent variable. This ratio is calculated for each independent variable. A high VIF indicates that the associated independent 
+              variable is highly collinear with the other variables in the model.
+                     (i) Bill amount of all the months found to have high Vif Values.
+                     
+                     
       
                     
  
