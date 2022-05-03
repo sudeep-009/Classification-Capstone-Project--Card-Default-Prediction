@@ -90,7 +90,7 @@ This dataset consists of 23 input feature variables and a binary target variable
              and eliminating redundant and irrelevant features. We removed all the multicollinear features from the dataset prior training 
              the model. For removing multicollinearity we used Vif and correlation heat map.
              
-             (a) HeatMap: 
+             (a) Correlation Matrix: 
                      (i)   Found that payments in all the months are highly collinear.
                      (ii)  Found that bill amounts in all the months are highly collinear.
                      (iii) Found high correlation between male and  female clients.
@@ -101,6 +101,29 @@ This dataset consists of 23 input feature variables and a binary target variable
               independent variable. This ratio is calculated for each independent variable. A high VIF indicates that the associated independent 
               variable is highly collinear with the other variables in the model.
                      (i) Bill amount of all the months found to have high Vif Values.
+                     
+   ## Important Features
+              Removed all the redundant features and collinear features. Important features after removing all the collinear features found
+              using Correlation Matrix and Vif are as follows:
+              0   LIMIT_BAL
+              1   AGE 
+              2   PAY_SEP 
+              3   BILL_AMT_SEPT  
+              4   PAY_AMT_SEPT  
+              5   PAY_AMT_AUG  
+              6   PAY_AMT_JUL  
+              7   PAY_AMT_JUN  
+              8   PAY_AMT_MAY  
+              9   PAY_AMT_APR  
+             10   SEX_female  
+             11   EDUCATION_graduate  
+             12   EDUCATION_high school  
+             13   EDUCATION_other  
+             14   EDUCATION_university 
+             15   MARRIAGE_married  
+             16   MARRIAGE_other  
+             
+   ## Model Building
                      
                      
       
