@@ -127,9 +127,26 @@ This dataset consists of 23 input feature variables and a binary target variable
              16   MARRIAGE_other  
              
    ## Model Building
-                     
-                     
-      
+             Based on the problem statement which is basically to predict whether a customer would default in their due payment it was cleared that
+             we need classification algorithms to solve the problem. We decided to developed a evaluate model using following algorithms.
+                    (i)   Logistic Regression.
+                    (ii)  Ridge Regression.
+                    (iii) Decision Tree.
+                    (iv)  Random Forest.
+                    (v)   XGBoost.
                     
- 
+             Following necessary steps have been employed for better model performance.
+                    (i)   train test split for model evaluation.
+                    (ii)  Hyperparameter tuning for best learning parameters that developed a better model. Hyperparameter tuning was done with the help
+                          of GridSearchCV.
+                    (iii) Feature Importances with help of Random Forest Classifier.
+                    
+                    
+              Evaluation Metrics.
+                     (i)  Classification Report for evaluation model performance.
+                     
+  ## Conclusion:
+                     (i)   After performing the various model we the get the best accuracy form the Random forest and XGBoost classifier.
+                     (ii)  Logestic Regression is the least accurate as compared to other models performed.
+                     (iii) XGBoost has the best precision and the recall balance.
 
